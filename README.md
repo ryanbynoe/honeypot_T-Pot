@@ -1,2 +1,2 @@
 # T-Pot Honey Platform
-![T-Pot Logo](tpotlogo.png)
+![T-Pot Logo](/images/tpotlogo.png)

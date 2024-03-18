@@ -1,1 +1,1 @@
-# honeypot_T-Pot
+# T-Pot Honey Platform

@@ -18,16 +18,16 @@ Deployment of T-Pot Honeypot in AWS
 
 
 ### EC2 Instance
-AMI: Debian 11
-Instance type: t3.large cost: 0.0832 USD/hr
-Storage: 128 GB
+- AMI: Debian 11
+- Instance type: t3.large cost: 0.0832 USD/hr
+- Storage: 128 GB
 
 
 ### Inbound rules
 
-Ports 64294, 64295, 64297 will be sourced to MyIP. This allows access to the T-pot management platform after install.
+- Ports 64294, 64295, 64297 will be sourced to MyIP. This allows access to the T-pot management platform after install.
 
-Ports 1-64000 lures the attackers in
+- Ports 1-64000 lures the attackers in
 
 ![Inbound Rules](images/inboundrules.png)
 
@@ -53,4 +53,11 @@ sudo apt install git -y
 
 ```
 
+# Kibana Dashboard
+
+![Kibana](/images/kbdash2.png)
+
+- Top attack was Dionaea
+- Panama had the most attacks by a country.
+- CVE -2020-11899
 
